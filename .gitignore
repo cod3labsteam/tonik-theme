@@ -1,0 +1,6 @@
+.idea
+backup/database.sql
+web/.htaccess
+web/wp-config.php
+web/wp-admin/error*
+web/wp-content/uploads
