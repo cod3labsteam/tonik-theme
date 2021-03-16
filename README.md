@@ -2,8 +2,8 @@
 
 # Local
 ```bash
-sed -i 's/www.rinologie.ro/rinologie.test/g' ./backup/database.sql # LINUX
-#sed -i '' -e 's/www.rinologie.ro/rinologie.test/g' ./backup/database.sql # MACOS
+sed -i 's,www.rinologie.ro,dev1.rinologie.ro,g' ./backup/database.sql # LINUX
+#sed -i '' -e 's,www.rinologie.ro,dev1.rinologie.ro,g' ./backup/database.sql # MACOS
 ```
 
 Mysql dump database
