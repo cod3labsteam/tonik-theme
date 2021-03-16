@@ -16,6 +16,23 @@ Mysql import database
 mysql -uhomestead -p rinologie < ./backup/initial_database.sql
 ```
 
+Create ```wp-config.php```
+Edit following variables:
+```bash
+define( 'DB_NAME', 'rinologie' );
+
+/** MySQL database username */
+define( 'DB_USER', 'homestead' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'secret' );
+
+$table_prefix = 'ri_';
+
+define( 'WP_DEBUG', true );
+```
+
+
 # Contrib plugins installed
 
 # Custom plugins
