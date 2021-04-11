@@ -6,6 +6,9 @@
                     <div class="header-main__logo">
                         <a href="<?= get_home_url(); ?>">Logo</a>
                     </div>
+                    <div class="main-menu">
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                    </div>
                 </div>
                 <!-- <h2><?= $title ?></h2>
                 <p><?= $lead ?></p> -->
